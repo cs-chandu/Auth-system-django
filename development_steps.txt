@@ -1,0 +1,21 @@
+1. Create Virtual Environent to work on
+
+python3 -m venv virtual_env_name
+
+2. Activate The ENV
+
+cd virtual_env_name/bin/activate
+
+* To deactivate 'deactivate' works.
+
+
+
+pip install --upgrade pip
+pip install django
+
+* Start a project
+
+django-admin startproject auth_system
+touch requirement.txt
+create templates folder
+python manage.py startapp accounts (to create app called accounts)
