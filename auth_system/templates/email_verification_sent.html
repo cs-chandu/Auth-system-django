@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block bodycontent %}
+<div>
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+          <a class="navbar-brand" href="{% url 'index' %}"> Auth-System: Email Sent </a>
+     </nav>
+  </div>
+
+<p> please confirm your email address {{ to_email }}</p>
+  <strong>At this point open the terminal where django server is running and click on the link
+  generated. The link will confirm your activation.</strong>
+{% endblock %}
